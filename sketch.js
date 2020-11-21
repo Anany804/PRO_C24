@@ -36,7 +36,7 @@ function draw() {
   rectMode(CENTER);
   background(0);
   
-  if (keyCode === "SPACE"){
+  if (keyCode === "UP_ARROW"){
 	paper1.velocityX = 5;
 	paper1.velocityY = 3;
   }
