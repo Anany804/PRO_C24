@@ -38,7 +38,7 @@ function draw() {
   rectMode(CENTER);
   background(0);
   
-  if (keyCode === "UP_ARROW"){
+  if (keyCode === UP_ARROW){
 	Matter.Body.appplyForce(paper1.body, paper1.body.position,{x:85, y: -85});
   }
   
