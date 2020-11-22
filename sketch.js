@@ -39,8 +39,7 @@ function draw() {
   background(0);
   
   if (keyCode === "UP_ARROW"){
-	paper1.velocityX = 5;
-	paper1.velocityY = 3;
+	Matter.Body.appplyForce(paper1.body, paper1.body.position,{x:85, y: -85});
   }
   
   drawSprites();
